@@ -1,0 +1,9 @@
+$color: black;
+$backColor: yellow;
+$padding: 40px;
+
+.TextStyle1{
+    background-color: $backColor;
+    color: $color;
+    padding: $padding;
+}
