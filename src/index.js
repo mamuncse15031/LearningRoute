@@ -5,7 +5,7 @@ import App from './App';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
-import SassLearn from './pages/SassLearn';
+//import SassLearn from './pages/SassLearn';
 import {Route, Link, BrowserRouter as Router} from '../node_modules/react-router-dom';
 
 import reportWebVitals from './reportWebVitals';
@@ -18,7 +18,6 @@ const myrouter =(
         <Link to='/about'>About   </Link>
         <Link to='/contact'>Contact   </Link>
         <Link to='/portfolio'>Portfolio   </Link>
-        <Link to='/sasslearn'>Sass Learning</Link>
 
       </ul>
 
@@ -26,7 +25,7 @@ const myrouter =(
       <Route path='/about' component={About}></Route>
       <Route path='/contact' component={Contact}></Route>
       <Route path='/portfolio' component={Portfolio}></Route>
-      <Route path='./sasslearn' component={SassLearn}></Route>
+      
 
     </div>
   </Router>
